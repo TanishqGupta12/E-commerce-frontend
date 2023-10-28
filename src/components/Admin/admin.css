@@ -1,0 +1,191 @@
+.Sidebar {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0;
+}
+
+.Sidebar > a:first-child {
+  padding: 0;
+}
+
+.Sidebar > a > img {
+  width: 100%;
+  transition: all 0.5;
+}
+
+.Sidebar > a > img:hover {
+  filter: drop-shadow(0 0 10px tomato);
+}
+
+.Sidebar > a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.493);
+  transition: all 0.5;
+  padding: 2rem;
+  font: 500 1rem "Roboto";
+}
+
+.Sidebar > a:hover {
+  /* transform: scaleY(1.5); */
+  color: crimson;
+}
+
+.Sidebar > a > p {
+  display: flex;
+  align-items: center;
+}
+
+.MuiTypography-root {
+  background-color: azure !important;
+}
+
+/*  dashboard */
+.dashboard {
+  width: 100vw;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  position: absolute;
+}
+
+.dashboardContainer {
+  border-left: 1px solid rgba(0, 0, 0, 0.13);
+  padding: 3rem 0;
+  background-color: white;
+}
+
+.dashboardContainer > h1 {
+  /* color: rgba(0, 0, 0, 0.13); */
+  font: 300 2rem "Roboto";
+  width: 50%;
+  padding: 1.5rem;
+  margin: auto;
+}
+
+.dashboardSummary {
+  margin: 2rem 0;
+}
+
+.dashboardSummary > div {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+}
+
+.dashboardSummary > div > p {
+  background-color: rgba(70, 117, 218, 0.932);
+  color: white;
+  width: 100%;
+  margin: 0 2rem;
+  font: 500 1.3rem "Roboto";
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.dashboardSummaryBOX {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboardSummaryBOX > a {
+  color: rgb(0, 0, 0);
+  font: 500 1.3rem "Roboto";
+  text-align: center;
+  background-color: bisque;
+  text-decoration: none;
+  padding: 1.5rem;
+  width: 10vmax;
+  height: 10vmax;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dashboardSummaryBOX > a:first-child {
+  background-color: brown;
+  color: azure;
+}
+.dashboardSummaryBOX > a:last-child {
+  background-color: pink;
+  color: azure;
+}
+
+/* Producyts Create */
+.dashboardContainer > .newProductsContainer {
+  max-width: 200%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1vmax;
+  padding: 1vmax;
+}
+
+.dashboardContainer > .newProductsContainer > .createProductionForm {
+  width: 100%;
+  padding: 1vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.dashboardContainer
+  > .newProductsContainer
+  > .createProductionForm
+  > div
+  > input {
+  width: 20vmax;
+  padding: 1vmax;
+  margin-bottom: 2vmax;
+  font: 500 1vmax "Roboto";
+  outline: none;
+}
+.dashboardContainer
+  > .newProductsContainer
+  > .createProductionForm
+  > div
+  > select {
+  appearance: none;
+
+  background-color: transparent;
+  border: none;
+  padding: 0 3em 0 0;
+  margin: 2vmax;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  border: 0.1vmax black solid;
+}
+
+.dashboardContainer
+  > .newProductsContainer
+  > .createProductionForm
+  > div
+  > .lastChildDiv {
+  outline: none;
+  font: 500 1vmax "Roboto";
+  padding: 1vmax;
+}
+
+.dashboardContainer > .newProductsContainer > .createProductionForm > Button {
+  margin: 2vmax;
+  font: 500 1vmax "Roboto";
+  padding: 1vmax 3vmax;
+  background-color: tomato;
+  color: azure;
+}
+
+
+.greenColor{
+  color: green;
+}
+
+.redColor{
+  color: red;
+}

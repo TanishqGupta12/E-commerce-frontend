@@ -1,0 +1,54 @@
+
+.harder_navs {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #021b32;
+  height: 5vmax;
+}
+.harder_navs > .Nav_logos {
+  display: flex;
+  align-items: center;
+}
+.harder_navs > .Nav_logos > img {
+  height: 4vmax;
+  width: 10vmax;
+}
+.harder_navs > .Nav_logos > h2 {
+  color: rgb(248, 242, 242);
+  font: 500 1.2vmax "Roboto";
+}
+.harder_navs > .Nav_logos > h2 > span {
+  color: crimson;
+  font: 500 1.2vmax "Roboto";
+}
+
+.harder_navs > .nav_searchs {
+  display: flex;
+}
+
+.harder_navs > .navbars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.harder_navs > .navbars > a > .btn {
+  color: #555;
+  text-decoration: none;
+  color: rgb(248, 242, 242);
+  margin-right: 0.1vmax;
+}
+
+.harder_navs > .navbars > .btn {
+  color: rgb(248, 242, 242);
+  border: none;
+  padding: 2vmax;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.harder_navs > .navbars .btn:hover {
+  color:  crimson;
+}

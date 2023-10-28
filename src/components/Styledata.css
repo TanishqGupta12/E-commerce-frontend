@@ -1,0 +1,257 @@
+.ProfileContainer{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    background-color: azure;
+}
+
+.ProfileContainer > div {
+    display: flex;
+    height: 100vh;
+    width: 100vh;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.ProfileContainer > div:first-child >h1 {
+    
+    color: rgb(10, 9, 8);
+    font: 500 2.2vmax "Roboto";
+    transform: translateX(-10vmax ) translateY(-2vmax);
+}
+
+.ProfileContainer > div:first-child >img {
+    width: 20vmax;
+    border-radius: 100%;
+    transition: all 0.5s;
+}
+.ProfileContainer > div:first-child >img:hover {
+   transform: scale(1.05);
+}
+
+.ProfileContainer > div:first-child >a {
+    border: none;
+    background-color: tomato;
+    color: white;
+    text-decoration: none;
+    padding: 0.5vmax;
+    width: 15%;
+    margin: 2vmax;
+    text-align: center;
+    transition: all 0.5s;
+    }
+
+    .ProfileContainer > div:first-child >a:hover{
+        background-color: rgba(204, 78, 56, 0.5);
+    }
+
+    .ProfileContainer > div:last-child {
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding: 5vmax;
+        box-sizing: border-box;
+    }
+
+    .ProfileContainer > div:first-child >div>h4 {
+        color: rgba(0, 0, 0, 0.418);
+        font: 400 1vmax "cursive" ;
+    }
+    .ProfileContainer > div:first-child >div>p {
+        color: rgba(0, 0, 0, 0.418);
+        font: 400 1vmax "cursive" ;
+        margin: 0.2vmax;
+    }
+
+    .ProfileContainer > div:last-child >div:last-child{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        
+    }
+    .ProfileContainer > div:last-child > div:last-child > a{
+        border: none;
+        background-color: rgba(68, 68, 68);
+        font: 500 1vmax "Roboto";
+        color: aliceblue;
+        text-align: center;
+        padding: 0.5vmax;
+        margin: 1vmax 0;
+        transition: all 0.5s;
+    }
+
+
+
+    /*  UPdate form */
+
+h1 {
+    text-align: center;
+    padding: 1vmax;
+}
+
+.updatecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 200%;
+    padding: 1vmax;
+    box-sizing: border-box;
+}
+ 
+.updatecontainer > form {
+    display: flex;
+    flex-direction: column;
+    padding: 1vmax;
+    width: 20%;
+}
+
+.updatecontainer > form > input {
+    padding: 0.5vmax;
+    margin-bottom: 2vmax;
+    font: 500 1em sans-serif;
+}
+
+.updatecontainer > form > button {
+    padding: 0.5vmax;
+    color: #fff;
+    background-color: crimson;
+    border: none;
+    box-sizing: border-box;
+    width: 100%;
+    height: 3vmax ;
+    font: 500 1em sans-serif;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.updatecontainer > form > button:hover{
+    background-color: rgb(144, 5, 33);
+    transition: all 0.5s;
+}
+
+ /* password update */
+
+  
+  .login-page {
+    background-color: rgba(255,255,255,0.5);
+    padding: 3vmax;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5vmax;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+  
+  .login-page > .login-page_h1{
+    margin-top: 2vmax;
+    text-align: center;
+    display: block;
+    position: relative;
+    bottom: 5%;
+  } 
+  
+  .login-page  >.Paswwordpage_from {
+    display: block;
+    background-color: rgba(255,255,255,0.5);
+    padding: 2vmax;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    border-radius: 5vmax;
+  }
+  
+  .login-page > .Paswwordpage_from > .Password_page_label {
+    display: block;
+    margin-bottom: 0.1vmax;
+    text-align: center;
+  }
+  
+  .login-page > .Paswwordpage_from> .login-page_input{
+    display: block;
+    width: 100%;
+    padding: 1vmax;
+    border: none;
+    border-radius: 5vmax;
+    margin-bottom: 2vmax;
+  } 
+  
+  .login-page > .Paswwordpage_from  > .login-page_button {
+    display: block;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5vmax;
+  }
+  
+  
+  .login-page > .Paswwordpage_from  > a {
+    display: block;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    margin-bottom: 10px;
+    border: none;
+    text-align: center;
+    border-radius: 5vmax;
+  } 
+  
+  
+
+  /* updatePhotot */
+
+
+  .avastermain{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 2vmax;
+      flex-direction: column;
+      position: relative;
+
+    }
+    
+    .avastermain > img {
+        display: flex;
+        flex-direction: column;
+        padding: 1vmax;  
+        height: 15vmax;
+    }
+    .avastermain  > img:hover {
+        transform: scale(1.05);
+    }
+
+    .avastermain >form {
+        display: flex;
+        flex-direction: column;
+    }
+
+  
+    /* .avastermain >.upload-btn-wrapper {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+      }
+      
+      .avastermain >.upload-btn-wrapper > .btn {
+        border: 2px solid gray;
+        color: rgb(254, 251, 251);
+        background-color:crimson;
+       font: 600 1vmax "Roboto";
+       padding: 1vmax;
+      }
+      
+      .upload-btn-wrapper > input[type=file] {
+        font-size: 100px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+      } */

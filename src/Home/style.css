@@ -1,0 +1,29 @@
+.swiper {
+  width: 95%;
+  height: 95%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  clip-path: polygon(0 0, 100% 1%, 100% 73%, 0 54%);
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.homeHeadling {
+  font-size: 2vmax;
+  font: 300 1.2vmax "Roboto";
+}

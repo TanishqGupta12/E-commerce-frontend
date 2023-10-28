@@ -1,0 +1,92 @@
+
+
+.bannnesd {
+    padding: 6vmax;
+    text-align: center;
+    background: rgb(4,1,67);
+background: linear-gradient(90deg, rgba(4,1,67,1) 0%, rgba(9,17,121,1) 35%, rgba(255,0,14,0.9781046207545518) 100%);
+color: azure;
+}
+.Contact_main{
+    height:60vh ;
+    width: 100vw;
+    display: flex;
+    
+}
+
+.Contact_main > div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.Contact_main > div > .Contact_from {
+    padding: 5vmax;
+    width: 200%;
+}
+.Contact_main > div >.Contact_from >form {
+    box-sizing: border-box;
+    padding: 2vmax;
+    display: flex;
+    flex-direction: column;
+    border: 0.2vmax solid crimson;
+
+} 
+.Contact_main > div >.Contact_from >form >input {
+    padding: 0.8vmax;
+    margin-bottom: 2vmax;
+    outline: none;
+}
+
+.Contact_main > div >.Contact_from >form > input:nth-last-child(2){
+    height: 8vmax;
+    padding: 1vmax;
+}
+.Contact_main > div > .Contact_from > form > Button{
+    width: 10vmax;
+    background-color: crimson;
+    color: aliceblue;
+    font: 500 1vmax "Roboto";
+} 
+.Contact_main > div > .Contact_from > form > Button:hover{
+    background-color: rgb(93, 10, 27);
+   
+} 
+.Contact_main > div > .Contact_detail{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 5vmax;
+    width: 200%;
+}
+
+.Contact_main > div > .Contact_detail > .Contact_detail_1{
+    margin-top: 1vmax;
+    
+}
+
+.Contact_main > div > .Contact_detail > .Contact_detail_1>h2{
+   
+   padding: 1vmax;
+}
+
+.Contact_main > div > .Contact_detail > .Contact_detail_1>p{
+    word-wrap: inherit;
+   padding: 0.8vmax;
+   font: 500 1.2vmax "Roboto";
+}
+.Contact_main > div > .Contact_detail > .Contact_detail_2{
+    margin-top: 1vmax;
+}
+
+.Contact_main > div > .Contact_detail > .Contact_detail_2>h2{
+
+   padding: 1vmax;
+}
+
+.Contact_main > div > .Contact_detail > .Contact_detail_2>p{
+
+    word-wrap: inherit;
+    padding: 0.2vmax;
+    font: 500 1.2vmax "Roboto";
+ }

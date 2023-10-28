@@ -1,0 +1,38 @@
+.about-us {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .about-us h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .about-us h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .about-us p {
+    margin-bottom: 10px;
+  }
+  
+  .about-us ul {
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+  
+  .about-us ul li {
+    margin-bottom: 5px;
+  }
+  
+  .about-us-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  

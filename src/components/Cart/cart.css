@@ -1,0 +1,118 @@
+.cartpage {
+  padding: 5vmax;
+  height: 100vh;
+}
+.cartheader {
+  background-color: #021b32;
+  width: 90%;
+  box-sizing: border-box;
+  margin: auto;
+  color: aliceblue;
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
+  font: 500 1vmax "Roboto";
+}
+
+.cartheader > p {
+  margin: 10px;
+}
+.cartheader > p:last-child {
+  margin: 10px;
+  text-align: end;
+}
+
+.cartitemcard > img {
+    width: 5vmax;
+}
+.cartitemcard {
+  display: flex;
+  padding: 1vmax;
+  height: 8vmax;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.cartitemcard > div {
+  display: flex;
+  margin: 0.3vmax 1vmax;
+  flex-direction: column;
+}
+.cartitemcard > div > a {
+  font: 400 1.2vmax "Roboto";
+  color: rgba(24, 24, 24, 0.815);
+}
+.cartitemcard > div > span {
+  font: 400 1.2vmax "Roboto";
+  color: rgba(24, 24, 24, 0.815);
+}
+.cartitemcard > div > p {
+    font: 400 1.2vmax "Roboto";
+  color: rgba(163, 9, 9, 0.815);
+  cursor: pointer;
+}
+
+/* cartcard */
+
+.cartcantined{
+    width: 91%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+}
+
+.carrtinput {
+    display: flex;
+    align-items: center;
+    height: 5vmax;
+}
+
+.carrtinput > Button {
+    width: 0.8vmax;
+}
+.carrtinput > input {
+    width: 1vmax;
+    outline: none;
+    border: none;
+}
+
+
+.Suvtotla{
+display: flex;
+justify-content: flex-end;
+padding: 1.8vmax;
+height: 5vmax;
+}
+
+.cartGross {
+  display: grid;
+  grid-template-columns: 2fr 1.2fr;
+}
+
+.cartGrossBox{
+  border-top: 3px solid crimson;
+  box-sizing: border-box;
+  padding: 2vmax 0;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5vmax;
+  border-bottom: 3px solid crimson;;
+
+}
+
+.checkout{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5vmax;
+
+}
+.checkout > .Button{
+  margin: 2vmax;
+  background-color: #021b32;
+  color: aliceblue;
+  border-radius: 2vmax ;
+}
+.checkout > .Button:hover{
+
+  background-color:crimson;
+  color: aliceblue;
+ 
+}

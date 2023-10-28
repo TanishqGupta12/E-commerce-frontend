@@ -1,0 +1,163 @@
+* {
+    scroll-behavior: smooth;
+    /* background-color: rgb(197, 240, 240); */
+  }
+
+  .classline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1vmax;
+    font-size: 1.2vmax;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+
+  }
+  .classline > h1{
+    color: crimson;
+    padding: 0.1vmax;
+  }
+  .classline > h2{
+    color: crimson;
+  }
+
+  @keyframes typing {
+    0.0000%, 27.3488% { content: ""; }
+    1.1395%, 26.2093% { content: "S"; }
+    2.2791%, 25.0698% { content: "SH"; }
+    3.4186%, 23.9302% { content: "SHO"; }
+    4.5581%, 22.7907% { content: "SHOP"; }
+    5.6977%, 21.6512% { content: "SHOPI"; }
+    6.8372%, 20.5116% { content: "SHOPIN"; }
+    7.9767%, 19.3721% { content: "SHOPIN"; }
+    9.1163%, 18.2326% { content: "SHOPING"; }
+    
+  
+  }
+  
+  @keyframes blink {
+    50% { opacity: 1; }
+    /* 50% { opacity: 0; } */
+  }
+  
+  .typewriter {
+    --caret: currentcolor;
+  }
+  
+  .typewriter::before {
+    content: "";
+    animation: typing 10s infinite;
+  }
+  
+  .typewriter::after {
+    content: "";
+    border-right: 1px solid var(--caret);
+    animation: blink 0.5s linear infinite;
+  }
+  
+  .typewriter.thick::after {
+    border-right: 1ch solid var(--caret);
+  }
+  
+  .typewriter.nocaret::after {
+    border-right: 0;
+  }
+  
+  
+  @media (prefers-reduced-motion) {
+    .typewriter::after {
+      animation: none;
+    }
+    
+    @keyframes sequencePopup {
+      50% { content: "SHOPING"; }
+
+    }
+  
+    .typewriter::before {
+      content: "SHOPING";
+      animation: sequencePopup 5s linear infinite;
+    }
+  }
+
+  .homeHeadling {
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .container {
+    display: flex;
+    margin: 2vmax auto;
+    width: 80vw;
+    flex-wrap: wrap;
+  }
+  
+  .ViewProducts {
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .ProductCard {
+    width: 14vmax;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    margin: 2vmax;
+    transition: all 0.5s; /* added duration value */
+    padding-bottom: 0.5vmax;
+  }
+  
+  .ProductCard > img {
+    width: 14vmax;
+  }
+  
+  .ProductCard > .ReactStars {
+    margin: 0.5vmax;
+    display: flex;
+    justify-content: flex-start;
+
+  }
+  .ProductCard > .ReactStars > .Rating {
+    font-size: medium;
+    /* width: 0.8vmax; */
+  }
+  
+  .ProductCard > .ReactStars > .Reviews {
+    margin: 0.5vmax;
+    font: 300 0.7vmax "Roboto";
+    /* margin-left: 7vmax; */
+  }
+  
+  .ProductCard > p {
+    margin: 1vmax 0.5vmax 0 0.5vmax; /* removed duplicate margin property */
+    font: 0 1.2vmax "Roboto";
+  }
+  
+  .ProductCard > .sapns {
+    margin: 0.5vmax;
+    color: blueviolet;
+  }
+  
+  .ProductCard:hover {
+    box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+    transform: translateY(-1vmax);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .ProductCard > p {
+      font-size: 1.7vmax;
+    }
+    .ProductCard > .ReactStars {
+      margin: 0vmax;
+    }
+    .ProductCard > .sapns {
+      font-size: 1.5vmax;
+    }
+    .ProductCard > .ReactStars > .Reviews {
+      margin: 0 0.5vmax;
+      font: 300 1vmax "Roboto";
+    }
+  }
+  
